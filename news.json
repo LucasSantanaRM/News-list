@@ -1,0 +1,139 @@
+{
+    "searchParameters": {
+        "q": "dev inteligencia artificial",
+        "gl": "br",
+        "hl": "pt-br",
+        "type": "search",
+        "location": "Brazil",
+        "engine": "google"
+    },
+    "organic": [
+        {
+            "title": "Inteligência Artificial para Desenvolvedores - Microsoft Azure",
+            "link": "https://azure.microsoft.com/pt-br/solutions/ai/dev-resources",
+            "snippet": "Inteligência artificial para desenvolvedores · Descobrir serviços de IA para desenvolvedores · Veja como outros desenvolvedores estão usando a IA do Azure.",
+            "position": 1
+        },
+        {
+            "title": "Inteligência Artificial: o que é e como trabalhar na área",
+            "link": "https://blog.mackenzie.br/mercado-carreira/dicas-de-carreira/inteligencia-artificial-como-comecar-a-trabalhar-nesse-mercado/",
+            "snippet": "Há cerca de 20 anos, a expressão “inteligência artificial” era popular por causa de filmes como O Exterminador do Futuro e A.I., de Steven Spielberg, ...",
+            "position": 2
+        },
+        {
+            "title": "Inteligência Artificial no Desenvolvimento de Software: Como a IA ...",
+            "link": "https://devmagic.com.br/inteligencia-artificial-no-desenvolvimento-de-software/",
+            "snippet": "A IA é uma tecnologia poderosa que está revolucionando o desenvolvimento de software. Com sua capacidade de automatizar tarefas, aprimorar a produtividade e ...",
+            "position": 3
+        },
+        {
+            "title": "Empresa de programação de algoritmos com inteligência artificial",
+            "link": "https://apollosolutionsdev.com/",
+            "snippet": "A Apollo desenvolve softwares de visão computacional personalizados, sistemas de inteligência artificial para machine learning, outsourcing, DevOps e mais.",
+            "position": 4
+        },
+        {
+            "title": "Primeiros passos em Inteligência Artificial (IA) - Alura",
+            "link": "https://www.alura.com.br/artigos/primeiros-passos-em-inteligencia-artificial-ia",
+            "snippet": "Inteligência Artificial é um tema atual e recorrente. Se você planeja trabalhar com IA, conheça os tipos de carreira para apostar e quais ...",
+            "date": "21 de nov. de 2023",
+            "position": 5
+        },
+        {
+            "title": "O que é IA? Saiba mais sobre Inteligência Artificial - Oracle",
+            "link": "https://www.oracle.com/br/artificial-intelligence/what-is-ai/",
+            "snippet": "A tecnologia de IA está melhorando o desempenho e a produtividade das empresas, automatizando processos ou tarefas que antes exigiam energia humana. A IA também ...",
+            "position": 6
+        },
+        {
+            "title": "A inteligência artificial vai substituir os desenvolvedores? - Exame",
+            "link": "https://exame.com/bussola/a-inteligencia-artificial-vai-substituir-os-desenvolvedores/",
+            "snippet": "Embora a inteligência artificial possa ajudar na automação de tarefas rotineiras, ela não é capaz de igualar a criatividade e intuição humana ...",
+            "date": "14 de jul. de 2023",
+            "position": 7
+        },
+        {
+            "title": "Como se tornar um desenvolvedor de inteligência artificial",
+            "link": "https://blog.gokursos.com/carreiras/tecnologia/desenvolvedor-de-ia/",
+            "snippet": "Passos para se tornar um desenvolvedor de inteligência artificial · 1. Adquirir conhecimentos em programação · 2. Estudar algoritmos e ...",
+            "date": "18 de jul. de 2023",
+            "position": 8
+        },
+        {
+            "title": "Lista: 23 Ferramentas de Desenvolvimento Web com IA para 2024",
+            "link": "https://www.hostinger.com.br/tutoriais/ia-desenvolvimento-web",
+            "snippet": "Assistente com inteligência artificial para desenvolvimento de sites; Interface amigável; Ferramentas de IA integradas para design, conteúdo e ...",
+            "date": "25 de jan. de 2024",
+            "sitelinks": [
+                {
+                    "title": "Tecnologias de IA para Testes...",
+                    "link": "https://www.hostinger.com.br/tutoriais/ia-desenvolvimento-web#Tecnologias_de_IA_para_Testes_e_Otimizacao"
+                },
+                {
+                    "title": "Inteligência Artificial para...",
+                    "link": "https://www.hostinger.com.br/tutoriais/ia-desenvolvimento-web#Inteligencia_Artificial_para_Desenvolvimento_e_Implantacao"
+                }
+            ],
+            "position": 9
+        },
+        {
+            "title": "IA no Desenvolvimento de Software: 3 ferramentas - UDS Tecnologia",
+            "link": "https://uds.com.br/blog/ia-desenvolvimento-software-ferramentas/",
+            "snippet": "Confira como as Inteligências Artificiais ChatGPT, Gemini e DeepCode podem transformar o Desenvolvimento de Software do código à pesquisa.",
+            "date": "5 de fev. de 2024",
+            "position": 10
+        }
+    ],
+    "peopleAlsoAsk": [
+        {
+            "question": "O que é IA para devs?",
+            "snippet": "Solução: A nova identidade visual do “IA para Devs” é uma fusão de cores vibrantes, traços futuristas e elementos gráficos que evocam o universo da IA.",
+            "title": "IA para Devs - Descubra o Futuro com a Rocketseat - Por Cleiton Avi",
+            "link": "https://cleitonavi.com/projeto/ia-para-devs/"
+        },
+        {
+            "question": "O que faz um desenvolvedor de inteligência artificial?",
+            "snippet": "Especialistas em Inteligência Artificial: cargos e funções da área. As principais responsabilidades de um especialista em IA podem incluir: Desenvolvimento de Algoritmos: Projetar e implementar algoritmos de IA eficazes para análise de dados, tomada de decisões, reconhecimento de padrões, entre outros.",
+            "title": "O que faz um especialista em inteligência artificial?",
+            "link": "https://blog.anhanguera.com/especialista-em-inteligencia-artificial/"
+        },
+        {
+            "question": "Qual o salário de um especialista em inteligência artificial?",
+            "snippet": "Nenhuma remuneração adicional foi relatada para esta função. Qual é o salário de Inteligencia artificial? O salário médio nacional de Inteligencia artificial é de R$5.000 em Brasil.",
+            "title": "Salário: Inteligencia Artificial (Julho de 2024) - Glassdoor",
+            "link": "https://www.glassdoor.com.br/Sal%C3%A1rios/inteligencia-artificial-sal%C3%A1rio-SRCH_KO0,23.htm"
+        },
+        {
+            "question": "Quanto custa um desenvolvedor de IA?",
+            "snippet": "Em conclusão, desenvolver IA e aprendizado de máquina não é tão caro quanto costumava ser. Agora, existem empresas pagas dedicadas ao desenvolvimento de IAs e sistemas de ML para empresas. Na estimativa, o preço deve estar entre $ 100,000 - $ 300,000. Isso é afetado pela complexidade, tamanho e requisitos do cliente.",
+            "title": "O desenvolvimento de inteligência artificial é caro? - Cynoteck",
+            "link": "https://cynoteck.com/pt/blog-post/is-artificial-intelligence-development-expensive/"
+        }
+    ],
+    "relatedSearches": [
+        {
+            "query": "Alura Inteligência Artificial"
+        },
+        {
+            "query": "Desenvolvedor de Inteligência artificial salário"
+        },
+        {
+            "query": "Especialista em inteligência artificial salário"
+        },
+        {
+            "query": "Curso de Inteligência Artificial gratuito"
+        },
+        {
+            "query": "Inteligência Artificial para devs Estácio"
+        },
+        {
+            "query": "Inteligência artificial trabalho escolar"
+        },
+        {
+            "query": "Como trabalhar com inteligência artificial"
+        },
+        {
+            "query": "Curso de Inteligência artificial para iniciantes"
+        }
+    ]
+}
