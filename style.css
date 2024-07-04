@@ -28,62 +28,79 @@
   height: 10vh;
   letter-spacing: 1px;
   line-height: 2;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra no título para destaque */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  /* Sombra no título para destaque */
 }
 
 .card a {
   display: inline-block;
-padding: 10px 20px;
-margin-top: 10px;
-background-color: #5d41da;
-color: #fff;
-text-align: center;
-text-decoration: none;
-border-radius: 5px;
-transition: background-color 0.3s ease;
-height: 25px;
-line-height: 20px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #5d41da;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  height: 25px;
+  line-height: 20px;
 }
 
 .card a:hover {
-background-color: #4834c4;
+  background-color: #4834c4;
 }
 
 /* Estilos para o contêiner de notícias */
 .container {
-display: flex;
-border-radius: 10px;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: stretch; /* Alinhando todos os itens com a mesma altura */
-padding: 50px 0; /* Adiciona espaço ao redor dos cards */
-background: rgba(163, 154, 220, 0.8); /* Adiciona uma leve opacidade ao fundo dos cards */
-width: 100%;
-margin: 0 auto;
-max-width: 2530px;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  /* Alinhando todos os itens com a mesma altura */
+  padding: 50px 0;
+  /* Adiciona espaço ao redor dos cards */
+  background: rgba(163, 154, 220, 0.8);
+  /* Adiciona uma leve opacidade ao fundo dos cards */
+  width: 100%;
+  margin: 0 auto;
+  max-width: 2530px;
 }
 
 /* Estilos para cada cartão de notícia */
 .card {
-border: 1px solid #ccc;
-border-radius: 8px;
-padding: 16px;
-width: 200px;
-margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  margin-bottom: 10px;
 
-text-align: center;
-box-sizing: border-box;
-display: flex;
-flex-direction: column;
-justify-content: space-between; /* Garantindo que o conteúdo dentro do card seja distribuído uniformemente */
-background-color: rgb(187, 177, 244);
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Garantindo que o conteúdo dentro do card seja distribuído uniformemente */
+  background-color: rgb(187, 177, 244);
 }
 
 body {
-background: url('/News-list/assets/galaxya.jpg') no-repeat center center fixed; /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
-background-size: cover; /* Garante que a imagem cubra toda a área */
-margin: 0;
-font-family: Arial, sans-serif; /* Opcional: adicionar uma fonte padrão */
-overflow-x: hidden; /* Evita rolagem horizontal indesejada */
+  background: url('/News-list/assets/galaxya.jpg') no-repeat center center fixed;
+  /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+  background-size: cover;
+  /* Garante que a imagem cubra toda a área */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* Opcional: adicionar uma fonte padrão */
+  overflow-x: hidden;
+  /* Evita rolagem horizontal indesejada */
+}
+
+
+.logo {
+  width: 150px;
+  padding: 35px;
+  height: auto;
+ 
 }
