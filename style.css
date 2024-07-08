@@ -86,7 +86,7 @@
 }
 
 body {
-  background: url('/News-list/assets/galaxya.jpg') no-repeat center center fixed;
+  background: url('/assets/galaxya.jpg') no-repeat center center fixed;
   /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
   background-size: cover;
   /* Garante que a imagem cubra toda a área */
