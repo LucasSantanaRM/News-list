@@ -2,6 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
 }
 
 .card {
@@ -20,7 +22,7 @@
 .titulo {
   font-size: 34px;
   text-align: center;
-  color: #efeef4;
+  color: #4c156e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,6 +50,8 @@
 
 .card a:hover {
   background-color: #4834c4;
+  
+  backdrop-filter: blur(10px);
 }
 
 /* Estilos para o contêiner de notícias */
@@ -103,4 +107,45 @@ body {
   padding: 35px;
   height: auto;
  
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  background: #f8f8f800;
+  backdrop-filter: blur(30px);
+  border-radius: 20px;
+  padding: 16px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #B5AEE3;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #ddd;
 }
