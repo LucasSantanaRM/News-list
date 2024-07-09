@@ -22,7 +22,7 @@ app.get('/api/news', async (req, res) => {
     method: 'post',
     url: 'https://google.serper.dev/search',
     headers: { 
-      'X-API-KEY': 'Gf8884d4688bf7f8b100f5e73d96ae18ce8224e42', 
+      'X-API-KEY': 'f8884d4688bf7f8b100f5e73d96ae18ce8224e42', 
       'Content-Type': 'application/json'
     },
     data : data

@@ -90,7 +90,7 @@
 }
 
 body {
-  background: url('/assets/galaxya.jpg') no-repeat center center fixed;
+  background: url('../assets/galaxya.jpg') no-repeat center center fixed;
   /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
   background-size: cover;
   /* Garante que a imagem cubra toda a área */
@@ -115,7 +115,7 @@ body {
 }
 
 .header {
-  background: #f8f8f800;
+  background: #1e1c1c00;
   backdrop-filter: blur(30px);
   border-radius: 20px;
   padding: 16px;
@@ -126,7 +126,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #B5AEE3;
+  background-color: #1b1b1c;
   padding: 10px 20px;
 }
 
