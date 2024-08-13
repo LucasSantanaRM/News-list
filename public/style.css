@@ -20,7 +20,7 @@
 }
 
 .titulo {
-  font-size: 34px;
+  font-size: 44px;
   text-align: center;
   color: #4c156e;
   display: flex;
@@ -103,8 +103,8 @@ body {
 
 
 .logo {
-  width: 150px;
-  padding: 35px;
+  width: 55px;
+  padding: 9px;
   height: auto;
  
 }
@@ -126,7 +126,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1b1b1c;
+  background-color: #1b0f25;
   padding: 10px 20px;
 }
 
@@ -134,6 +134,7 @@ body {
   list-style: none;
   display: flex;
   gap: 20px;
+  
 }
 
 .nav-links li {
