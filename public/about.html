@@ -1,135 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto</title>
+    <title>Sobre - Tech News</title>
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
     <style>
         body {
-            background-color: #59575776;
-            color: #333;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #fefefe;
+            margin: 0;
+            padding: 0;
+            background-image: url('/assets/background-sobre.jpg');
+            background-size: cover;
+            background-attachment: fixed;
         }
-
         .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #333;
-            color: #fff;
+            background-color: #1B0F25;
             padding: 1rem;
-        }
-
-        .logo-container {
-            margin-right: 1rem;
-        }
-
-        .nav-links {
             display: flex;
-            gap: 1rem;
-        }
-
-        .nav-links li {
-            list-style: none;
-        }
-
-        .nav-links a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        .max-w-7xl {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .mx-auto {
-            margin: 0 auto;
-        }
-
-        .px-4 {
-            padding-left: 1rem;
-            padding-right: 1rem;
-        }
-
-        .py-16 {
-            padding-top: 4rem;
-            padding-bottom: 4rem;
-        }
-
-        .flex {
-            display: flex;
-        }
-
-        .justify-between {
             justify-content: space-between;
-        }
-
-        .items-center {
             align-items: center;
         }
-
-        .lg:w-1/2 {
-            width: 50%;
+        .logo-container {
+            display: flex;
+            align-items: center;
         }
-
-        .mt-8 {
-            margin-top: 2rem;
+        .logo {
+            height: 40px;
         }
-
-        .rounded-lg {
-            border-radius: 0.5rem;
+        .nav-links {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
         }
-
-        .shadow-lg {
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .nav-links li {
+            margin-left: 1rem;
         }
-
-        .absolute {
-            position: absolute;
-        }
-
-        .inset-0 {
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-        }
-
-        .bg-muted {
-            background-color: #ccc;
-        }
-
-        .text-3xl {
-            font-size: 1.5rem;
-        }
-
-        .font-bold {
+        .nav-links a {
+            color: white;
+            text-decoration: none;
             font-weight: bold;
         }
-
-        .mb-4 {
-            margin-bottom: 1rem;
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            
         }
-
-        .text-lg {
-            font-size: 1.2rem;
+        header {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 30px;
         }
-
-        .py-16 {
-            padding-top: 4rem;
-            padding-bottom: 4rem;
+        h1 {
+            color: #eceef1;
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            animation: colorChange 5s infinite alternate;
+        }
+        @keyframes colorChange {
+            0% { color: #2c3e50; }
+            50% { color: #8e44ad; }
+            100% { color: #c0392b; }
+        }
+        .image-container {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .content {
+            flex: 2;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .home-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: linear-gradient(45deg, #8e44ad, #c0392b);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .home-link:hover {
+            background: linear-gradient(45deg, #9b59b6, #e74c3c);
         }
     </style>
 </head>
-
 <body>
-    <!-- Navbar -->
     <nav class="navbar">
         <div class="logo-container">
-            <img src="../assets/logo.png" alt="Logo do Projeto" class="logo">
-
-
+            <img src="/assets/logo.png" alt="Logo do Projeto" class="logo">
         </div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
@@ -138,28 +113,30 @@
         </ul>
     </nav>
 
-    <!-- Conteúdo da página -->
-    <section class="max-w-7xl mx-auto px-4 py-16 flex justify-between items-center">
-        <div class="lg:w-1/2">
-            <h2 class="text-3xl font-bold mb-4">ABOUT US</h2>
-            <h1 class="text-5xl font-bold mb-4">Helping businesses deliver <span class="text-primary">exceptional</span> buyer experiences.</h1>
-            <p class="text-lg mb-6">Vidyard is the leading video messaging and asynchronous communications platform for go-to-market teams. Millions of sales professionals and more than 250,000 go-to-market teams use Vidyard’s AI-powered video messaging, video hosting, and digital sales rooms to connect with more prospects and generate more revenue.</p>
-            <button class="bg-primary text-primary-foreground px-6 py-3 rounded-lg">Sign Up for Free</button>
+    <div class="container">
+        <header>
+            <h1>Sobre o Tech News</h1>
+        </header>
+        
+        <div class="image-container">
+            <img src="/assets/sobre.png" alt="Tech News Logo">
         </div>
-        <div class="lg:w-1/2 mt-8 lg:mt-0 flex justify-center">
-            <div class="relative">
-                <img src="https://placehold.co/600x400" alt="Person working at desk" class="rounded-lg shadow-lg">
-                <div class="absolute inset-0 bg-accent opacity-50 rounded-lg"></div>
-            </div>
-        </div>
-    </section>
-    <section class="bg-muted py-16">
-        <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-4">Built for go-to-market teams, powered by AI</h2>
-            <p class="text-lg mb-4">We believe in the power of video to foster human connections and empower go-to-market professionals to deliver trusted and productive buyer experiences.</p>
-            <p class="text-lg">We also believe in the power of AI to help sales and marketing teams unlock their creativity and connect with more prospects than ever before.</p>
-        </div>
-    </section>
+        
+        <main class="content">
+            <p>O Tech News é um projeto inovador criado por Lucas Santana com o objetivo de manter os usuários sempre atualizados sobre as últimas novidades do mundo da tecnologia.</p>
+            
+            <p>Nosso compromisso é fornecer informações precisas e relevantes, buscando dados diretamente da API da Serper para garantir a qualidade e atualidade das notícias.</p>
+            
+            <p>Com o Tech News, você terá acesso a:</p>
+            <ul>
+                <li>Notícias em tempo real sobre inovações tecnológicas</li>
+                <li>Análises de produtos e lançamentos</li>
+                <li>Tendências do mercado de tecnologia</li>
+                <li>Entrevistas com especialistas do setor</li>
+            </ul>
+            
+            <p>Nosso objetivo é ser sua fonte confiável para tudo relacionado à tecnologia, mantendo você sempre um passo à frente no mundo digital em constante evolução.</p>
+        </main>
+    </div>
 </body>
-
 </html>
