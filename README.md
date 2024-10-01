@@ -6,4 +6,15 @@ Esse é um projeto criado para listar noticias usando a API da serper.dev o intu
 
 
 
-O projeto conta com o deploy em docker compose para facilitar a implementação e tambem focado em segurança desenvolvido pensando na proteção da chave de API usando dotenv
+O projeto conta com o deploy em docker compose para facilitar a implementação e tambem focado em segurança desenvolvido pensando na proteção da chave de API usando dotenv.
+
+
+Para rodar o projeto:
+
+npm install
+
+
+e em seguida executar o servidor
+
+
+node server.js
