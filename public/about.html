@@ -4,110 +4,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Importando o Tailwind CSS e plugins -->
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-    <!-- Importando o unlazy para carregamento lazy das imagens -->
-    <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
-    <script type="text/javascript">
-        window.tailwind.config = {
-            darkMode: ['class'],
-            theme: {
-                extend: {
-                    colors: {
-                        border: 'hsl(var(--border))',
-                        input: 'hsl(var(--input))',
-                        ring: 'hsl(var(--ring))',
-                        background: 'hsl(var(--background))',
-                        foreground: 'hsl(var(--foreground))',
-                        primary: {
-                            DEFAULT: 'hsl(var(--primary))',
-                            foreground: 'hsl(var(--primary-foreground))'
-                        },
-                        secondary: {
-                            DEFAULT: 'hsl(var(--secondary))',
-                            foreground: 'hsl(var(--secondary-foreground))'
-                        },
-                        destructive: {
-                            DEFAULT: 'hsl(var(--destructive))',
-                            foreground: 'hsl(var(--destructive-foreground))'
-                        },
-                        muted: {
-                            DEFAULT: 'hsl(var(--muted))',
-                            foreground: 'hsl(var(--muted-foreground))'
-                        },
-                        accent: {
-                            DEFAULT: 'hsl(var(--accent))',
-                            foreground: 'hsl(var(--accent-foreground))'
-                        },
-                        popover: {
-                            DEFAULT: 'hsl(var(--popover))',
-                            foreground: 'hsl(var(--popover-foreground))'
-                        },
-                        card: {
-                            DEFAULT: 'hsl(var(--card))',
-                            foreground: 'hsl(var(--card-foreground))'
-                        },
-                    },
-                }
-            }
-        };
-    </script>
-    <style type="text/tailwindcss">
-        @layer base {
-            :root {
-                --background: 0 0% 100%;
-                --foreground: 240 10% 3.9%;
-                --card: 0 0% 100%;
-                --card-foreground: 240 10% 3.9%;
-                --popover: 0 0% 100%;
-                --popover-foreground: 240 10% 3.9%;
-                --primary: 240 5.9% 10%;
-                --primary-foreground: 0 0% 98%;
-                --secondary: 240 4.8% 95.9%;
-                --secondary-foreground: 240 5.9% 10%;
-                --muted: 240 4.8% 95.9%;
-                --muted-foreground: 240 3.8% 46.1%;
-                --accent: 240 4.8% 95.9%;
-                --accent-foreground: 240 5.9% 10%;
-                --destructive: 0 84.2% 60.2%;
-                --destructive-foreground: 0 0% 98%;
-                --border: 240 5.9% 90%;
-                --input: 240 5.9% 90%;
-                --ring: 240 5.9% 10%;
-                --radius: 0.5rem;
-            }
-            .dark {
-                --background: 240 10% 3.9%;
-                --foreground: 0 0% 98%;
-                --card: 240 10% 3.9%;
-                --card-foreground: 0 0% 98%;
-                --popover: 240 10% 3.9%;
-                --popover-foreground: 0 0% 98%;
-                --primary: 0 0% 98%;
-                --primary-foreground: 240 5.9% 10%;
-                --secondary: 240 3.7% 15.9%;
-                --secondary-foreground: 0 0% 98%;
-                --muted: 240 3.7% 15.9%;
-                --muted-foreground: 240 5% 64.9%;
-                --accent: 240 3.7% 15.9%;
-                --accent-foreground: 0 0% 98%;
-                --destructive: 0 62.8% 30.6%;
-                --destructive-foreground: 0 0% 98%;
-                --border: 240 3.7% 15.9%;
-                --input: 240 3.7% 15.9%;
-                --ring: 240 4.9% 83.9%;
-            }
+    <title>Projeto</title>
+    <style>
+        body {
+            background-color: #59575776;
+            color: #333;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        .logo-container {
+            margin-right: 1rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .nav-links li {
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .max-w-7xl {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .mx-auto {
+            margin: 0 auto;
+        }
+
+        .px-4 {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .py-16 {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .lg:w-1/2 {
+            width: 50%;
+        }
+
+        .mt-8 {
+            margin-top: 2rem;
+        }
+
+        .rounded-lg {
+            border-radius: 0.5rem;
+        }
+
+        .shadow-lg {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .absolute {
+            position: absolute;
+        }
+
+        .inset-0 {
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        .bg-muted {
+            background-color: #ccc;
+        }
+
+        .text-3xl {
+            font-size: 1.5rem;
+        }
+
+        .font-bold {
+            font-weight: bold;
+        }
+
+        .mb-4 {
+            margin-bottom: 1rem;
+        }
+
+        .text-lg {
+            font-size: 1.2rem;
+        }
+
+        .py-16 {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
         }
     </style>
 </head>
 
-<body class="bg-background text-foreground">
+<body>
     <!-- Navbar -->
-    <nav class="navbar flex justify-between items-center bg-primary text-primary-foreground px-4 py-2">
+    <nav class="navbar">
         <div class="logo-container">
             <img src="../assets/logo.png" alt="Logo do Projeto" class="logo">
+
+
         </div>
-        <ul class="nav-links flex gap-4">
+        <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -115,9 +139,9 @@
     </nav>
 
     <!-- Conteúdo da página -->
-    <section class="max-w-7xl mx-auto px-4 py-16 flex flex-col lg:flex-row items-center">
+    <section class="max-w-7xl mx-auto px-4 py-16 flex justify-between items-center">
         <div class="lg:w-1/2">
-            <h2 class="text-secondary mb-2">ABOUT US</h2>
+            <h2 class="text-3xl font-bold mb-4">ABOUT US</h2>
             <h1 class="text-5xl font-bold mb-4">Helping businesses deliver <span class="text-primary">exceptional</span> buyer experiences.</h1>
             <p class="text-lg mb-6">Vidyard is the leading video messaging and asynchronous communications platform for go-to-market teams. Millions of sales professionals and more than 250,000 go-to-market teams use Vidyard’s AI-powered video messaging, video hosting, and digital sales rooms to connect with more prospects and generate more revenue.</p>
             <button class="bg-primary text-primary-foreground px-6 py-3 rounded-lg">Sign Up for Free</button>

@@ -1,44 +1,39 @@
+/* Estilos para o contêiner de notícias */
 .container {
   display: flex;
+  border-radius: 10px;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  align-items: stretch;
+  padding: 50px 0;
+  background: rgba(15, 40, 102, 0.8);
+  width: 100%;
+  margin: 0 auto;
+  max-width: 2530px;
 }
 
+/* Estilos para os cartão de notícia */
 .card {
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 16px;
-  width: 200px;
+  width: 350px;
+  margin-bottom: 10px;
   text-align: center;
   box-sizing: border-box;
-}
-
-.card h3 {
-  margin-top: 50px;
-}
-
-.titulo {
-  font-size: 44px;
-  text-align: center;
-  color: #4c156e;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 10vh;
-  letter-spacing: 1px;
-  line-height: 2;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  /* Sombra no título para destaque */
+  justify-content: space-between;
+  background-color: #173686; 
+  color: #fff; 
 }
 
 .card a {
   display: inline-block;
   padding: 10px 20px;
   margin-top: 10px;
-  background-color: #5d41da;
+  background-color: #010588;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -49,92 +44,84 @@
 }
 
 .card a:hover {
-  background-color: #4834c4;
-  
-  backdrop-filter: blur(10px);
+  background-color: #1B0F25; 
 }
 
-/* Estilos para o contêiner de notícias */
-.container {
-  display: flex;
-  border-radius: 10px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: stretch;
-  /* Alinhando todos os itens com a mesma altura */
-  padding: 50px 0;
-  /* Adiciona espaço ao redor dos cards */
-  background: rgba(163, 154, 220, 0.8);
-  /* Adiciona uma leve opacidade ao fundo dos cards */
-  width: 100%;
-  margin: 0 auto;
-  max-width: 2530px;
-}
-
-/* Estilos para cada cartão de notícia */
-.card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 16px;
-  width: 350px;
-  margin-bottom: 10px;
-
+/* Estilos para o título */
+.titulo {
+  font-size: 3rem; 
   text-align: center;
-  box-sizing: border-box;
+  color: #fff; 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  /* Garantindo que o conteúdo dentro do card seja distribuído uniformemente */
-  background-color: rgb(187, 177, 244);
+  align-items: center;
+  justify-content: center;
+  height: auto; 
+  letter-spacing: 0.5px; 
+  line-height: 1.4; 
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  font-family: 'Roboto', sans-serif; 
+  margin: 20px 0; 
 }
 
+/* Estilos para a imagem no título */
+.titulo-img {
+  max-width: 100%; 
+  height: auto; 
+  max-height: 150px; 
+  margin-right: 10px; 
+}
+
+/* Estilos para o corpo */
 body {
-  background: url('../assets/galaxya.jpg') no-repeat center center fixed;
-  /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+  background: url('/assets/galaxya.jpg') no-repeat center center fixed;
   background-size: cover;
-  /* Garante que a imagem cubra toda a área */
   margin: 0;
   font-family: Arial, sans-serif;
-  /* Opcional: adicionar uma fonte padrão */
   overflow-x: hidden;
-  /* Evita rolagem horizontal indesejada */
 }
 
-
+/* Estilos para o logo */
 .logo {
-  width: 55px;
   padding: 9px;
   height: auto;
- 
+  max-width: 100%; 
+  max-height: 80px; 
 }
 
+/* Estilos para o contêiner do logo */
 .logo-container {
   display: flex;
   align-items: center;
 }
 
+/* Estilos para o cabeçalho */
 .header {
-  background: #1e1c1c00;
-  backdrop-filter: blur(30px);
-  border-radius: 20px;
-  padding: 16px;
+  background: linear-gradient(135deg, #D80C35, #0F2866);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 26px;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
 }
 
-
+/* Estilos para a barra de navegação */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1b0f25;
+  background-color: #1B0F25; 
   padding: 10px 20px;
 }
 
+/* Estilos para os links de navegação */
 .nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
-  
 }
 
 .nav-links li {
@@ -142,7 +129,7 @@ body {
 }
 
 .nav-links a {
-  color: #fff;
+  color: #fff; 
   text-decoration: none;
   font-size: 16px;
 }

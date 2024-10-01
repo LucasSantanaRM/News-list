@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Noticias</title>
-    <link rel="icon" type="image/png" href="../assets/favicon.png">
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav class="navbar">
         <div class="logo-container">
-            <img src="../assets/logo.png" alt="Logo do Projeto" class="logo">
+            <img src="/assets/logo.png" alt="Logo do Projeto" class="logo">
         </div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
@@ -22,11 +22,12 @@
     </nav>
     
     <div class="header">
+        <img src="/assets/noticia.png" alt="Notícia" class="titulo-img">
         <h3 class="titulo">Abaixo estão as últimas notícias de tecnologia</h3>
     </div>
     
     <div class="container" id="news-container">
-        <!-- Cards will be dinamically added here -->
+        
     </div>
 
     <script>
@@ -34,7 +35,7 @@
             fetch('/api/news')
                 .then(response => response.json())
                 .then(data => {
-                    const news = data.organic; // Assumindo que 'organic' contém os resultados das notícias
+                    const news = data.organic; 
                     const container = document.querySelector("#news-container");
 
                     news.forEach(noticia => {
